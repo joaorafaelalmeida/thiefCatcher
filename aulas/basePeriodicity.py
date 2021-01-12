@@ -44,8 +44,8 @@ def main():
     # plt.plot(data[:,0],data[:,2],data[:,0],data[:,4])
     # plt.show()
             
-    obsWindows=[128]
-    slidingValue=3
+    obsWindows=[285]
+    slidingValue=285
     slidingMultObsWindow(data[:,:2],obsWindows,slidingValue)
             
         
